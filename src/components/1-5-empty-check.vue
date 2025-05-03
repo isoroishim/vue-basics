@@ -8,7 +8,7 @@
       class="mb-3"
     />
 
-    <v-btn @click="countUp" :disabled="isInvalid" color="primary" class="mb-3"> カウント </v-btn>
+    <v-btn @click="countUp" :disabled="isInvalid" color="primary" class="mb-3">カウント</v-btn>
 
     <v-alert
       :type="isInvalid ? 'info' : 'success'"
@@ -21,22 +21,20 @@
       class="mb-3"
     >
       <strong>
-        {{ isInvalid ? '入力が無効です。空白のみの入力は受け付けません。' : '入力OK：' + name }}
+        {{ isInvalid ? '空または空白のみの入力です' : '入力OK:' + name }}
       </strong>
     </v-alert>
 
-    <div class="mt-4 text-body-1 font-weight-medium">カウント: {{ count }}</div>
+    <div vlass="mt-4 text-body-1 font-weight-medium">カウント: {{ count }}</div>
   </v-container>
 </template>
-
-<script lang="ts" setup>
+<script setup lang="ts">
 import { ref, computed } from 'vue'
 
 const name = ref('')
 const count = ref(0)
 
 const isInvalid = computed(() => name.value.trim() === '')
-
 const countUp = () => {
   count.value++
 }

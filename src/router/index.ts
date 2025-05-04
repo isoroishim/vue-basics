@@ -7,15 +7,16 @@ import Intro1 from '../components/1-0.vue'
 import Counter from '../components/1-1-counter.vue'
 import CounterButtons from '../components/1-2-counter-buttons.vue'
 import CounterWithTime from '../components/1-3-counter-with-time.vue'
-import IfElseColor from '../components/1-4-0-if-else-color.vue'
-import ClassBind from '../components/1-4-1-bind-class.vue'
-import ComputedClass from '../components/1-4-2-computed-class.vue'
+import IfElseColor from '../components/1-4-if-else-color.vue'
 import EmptyCheck from '../components/1-5-empty-check.vue'
-
 // 第2章
 import InputPreview from '../components/1-6-input-preview.vue'
 import EmptyCheckInput from '../components/1-7-empty-check-input.vue'
 import MultiInput from '../components/1-8-multi-input.vue'
+// 第3章
+import ClassBind from '../components/1-9-class-bind.vue'
+import MultipleCondition from '../components/1-10-multiple-condition.vue'
+import ConditionalStyle from '../components/1-11-conditional-style.vue'
 
 const routes = [
   { path: '/', component: Home },
@@ -25,15 +26,18 @@ const routes = [
   { path: '/1-1', component: Counter },
   { path: '/1-2', component: CounterButtons },
   { path: '/1-3', component: CounterWithTime },
-  { path: '/1-4-0', component: IfElseColor },
-  { path: '/1-4-1', component: ClassBind },
-  { path: '/1-4-2', component: ComputedClass },
+  { path: '/1-4', component: IfElseColor },
   { path: '/1-5', component: EmptyCheck },
 
   // 第2章：フォーム入力と条件処理
   { path: '/1-6', component: InputPreview },
   { path: '/1-7', component: EmptyCheckInput },
-  { path: '/1-8', component: MultiInput }
+  { path: '/1-8', component: MultiInput },
+
+  // 第3章：条件分岐とスタイルの動的変更
+  { path: '/1-9', component: ClassBind },
+  { path: '/1-10', component: MultipleCondition },
+  { path: '/1-11', component: ConditionalStyle }
 ]
 
 const router = createRouter({

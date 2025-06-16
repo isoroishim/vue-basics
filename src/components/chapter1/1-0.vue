@@ -9,17 +9,19 @@
         <v-list-item to="/1-1" link>1-1: カウンター（+1）</v-list-item>
         <v-list-item to="/1-2" link>1-2: カウンター（+/-/リセット）</v-list-item>
         <v-list-item to="/1-3" link>1-3: カウント履歴 + 日時</v-list-item>
-        <v-list-item to="/1-4-0" link>1-4: カウント操作によるスタイル変更</v-list-item>
-        <v-list-item to="/1-5-0" link>1-5: 空チェックとアラート</v-list-item>
+        <v-list-item to="/1-4-0" link>1-4: v-if / v-else によるボタン色変更</v-list-item>
+        <v-list-item to="/1-5" link>1-5: 空チェック（v-if / computed / trim）</v-list-item>
       </v-list>
 
       <h2 class="text-subtitle-1 mt-6">2：入力処理と双方向バインディング</h2>
       <v-list density="compact">
         <v-list-item to="/1-6" link>1-6: 入力プレビュー</v-list-item>
         <v-list-item to="/1-7" link>1-7: 空チェックアラート</v-list-item>
+        <!-- 予定されている場合 -->
         <v-list-item to="/1-8" link>1-8: 複数入力とデータ管理</v-list-item>
       </v-list>
 
+      <!-- 以下は今後の予定であればそのままでもOK -->
       <h2 class="text-subtitle-1 mt-6">3：条件分岐とスタイルの動的適用</h2>
       <v-list density="compact">
         <v-list-item to="/1-9" link>1-9: バインドによる色変更</v-list-item>

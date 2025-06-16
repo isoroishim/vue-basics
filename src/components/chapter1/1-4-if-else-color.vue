@@ -1,28 +1,5 @@
 <template>
   <v-container class="pa-4">
-    <!-- リンク一覧 -->
-    <v-sheet class="pa-4 mb-4" elevation="2" rounded>
-      <h3 class="text-subtitle-1 font-weight-medium mb-2">1-4 条件付きスタイル</h3>
-      <v-btn
-        to="/1-4-1"
-        color="primary"
-        variant="outlined"
-        class="mb-2 mr-2"
-        style="width: 320px; justify-content: flex-start"
-      >
-        1-4-1: v-bind:class のスタイル切替
-      </v-btn>
-      <v-btn
-        to="/1-4-2"
-        color="primary"
-        variant="outlined"
-        class="mb-2 mr-2"
-        style="width: 320px; justify-content: flex-start"
-      >
-        1-4-2: computed を使ったクラス切替
-      </v-btn>
-    </v-sheet>
-
     <!-- カウント表示 -->
     <v-sheet class="pa-4" elevation="2" rounded>
       <h2 class="text-h5 mb-4">1-4-0: v-if / v-else + ボタン色とラベル切り替え</h2>

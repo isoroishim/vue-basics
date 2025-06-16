@@ -9,7 +9,7 @@
         <v-list-item to="/1-1" link>1-1: カウンター（+1）</v-list-item>
         <v-list-item to="/1-2" link>1-2: カウンター（+/-/リセット）</v-list-item>
         <v-list-item to="/1-3" link>1-3: カウント履歴 + 日時</v-list-item>
-        <v-list-item to="/1-4-0" link>1-4: v-if / v-else によるボタン色変更</v-list-item>
+        <v-list-item to="/1-4" link>1-4: v-if / v-else によるボタン色変更</v-list-item>
         <v-list-item to="/1-5" link>1-5: 空チェック（v-if / computed / trim）</v-list-item>
       </v-list>
 

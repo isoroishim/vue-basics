@@ -2,7 +2,7 @@
   <v-container class="pa-4">
     <!-- カウント表示 -->
     <v-sheet class="pa-4" elevation="2" rounded>
-      <h2 class="text-h5 mb-4">1-4-0: v-if / v-else + ボタン色とラベル切り替え</h2>
+      <h2 class="text-h5 mb-4">1-4: v-if / v-else + ボタン色とラベル切り替え</h2>
 
       <div class="mb-4">
         <v-btn :color="count >= 10 ? 'green' : 'primary'" @click="addCount" class="mr-2">

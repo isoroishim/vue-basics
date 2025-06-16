@@ -3,7 +3,7 @@
     <v-sheet class="pa-4" :class="boxClass" elevation="2">
       <h2 class="text-h5 mb-4">1-11: computed によるスタイルの再利用</h2>
 
-      <v-btn @click="count++" color="error" class="text-subtitle-1 font-weight-bold mb-3"
+      <v-btn @click="count++" color="primary" class="text-subtitle-1 font-weight-bold mb-3"
         >カウント:{{ count }}</v-btn
       >
 
